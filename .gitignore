@@ -1,0 +1,53 @@
+# --- Binários e Arquivos de Saída ---
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.com
+
+# --- Objetos e Arquivos Intermediários ---
+*.obj
+*.o
+*.obj64
+*.lst
+*.map
+*.sym
+*.ilk
+*.pdb
+
+# --- Arquivos temporários de montadores e depuradores ---
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+core
+core.*
+
+# --- IDEs e Editores (Ex: VS Code, Visual Studio, Emacs) ---
+.vscode/
+.vs/
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+flymake*
+
+# --- Sistema Operacional ---
+# Windows
+Thumbs.db
+ehthumbs.thb
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+*~
